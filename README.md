@@ -8,33 +8,28 @@ Provide valuable input to customers who need help in choosing the best flight
 Help customers understand which days and months of the week there is a probable chance of delay, which airlines are delayed the most, understanding of how delays differ with flight distance, analysis of delays during departure and arrivals 
 
 ## Data Summary:
-US domestic flights dataset for the year 2017.
-
-Source – [US Bureau of Transportation](https://www.transportation.gov/).
-
-Contains approx. 6 million records with 70 columns (~2 GB)
+1) US domestic flights dataset for the year 2017.
+2) Source – [US Bureau of Transportation](https://www.transportation.gov/).
+3) Contains approx. 6 million records with 70 columns (~2 GB)
 
 ## Data Cleaning:
-Merging data of each month together.
+1) Merging data of each month together.
+2) Replacing null values with appropriate values.
+3) Changing datetimes to proper format ( 1020 -> 10:20:00).
+4) Merging data with geographical co-ordinates
 
-Replacing null values with appropriate values.
-
-Changing datetimes to proper format ( 1020 -> 10:20:00).
-
-Merging data with geographical co-ordinates
-
-## Insight:
+## Insights:
 ### Would you prefer to choose an airline if you knew that 45% of its flights are delayed?
 
 Probably not ! 
-
-But , through clustering the interesting insight is:
-
+But, through clustering the interesting insight is:
 Even though some flights have delayed departures, they still arrive on time or in many cases even before the scheduled arrival time!
 
 ![image_descript](/images/1.png)
 
-**Reason:** CRS time adjustment 
+**Reason:** 
+
+CRS time adjustment 
 
 ![image_descript](/images/2.png)
 
@@ -66,11 +61,9 @@ Shorter distance flights comparatively have more delays than longer distance fli
 #### On further analysis it can also answer the following questions:
 
 **What is the best season of the year to travel? Flights are delayed usually in which season? Is it in monsoon or winters?**
-
 No, Interesting finding here is that the flights are delayed more in summers than monsoon or winters. The reason is that LOW AIR Density makes it difficult for planes to take off. 
 
 **Are flights more delayed during weekends?**
-
 No, Flights are delayed more during weekdays than weekends.
 
 
