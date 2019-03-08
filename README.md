@@ -22,7 +22,9 @@ Help customers understand which days and months of the week there is a probable 
 ### Would you prefer to choose an airline if you knew that 45% of its flights are delayed?
 
 Probably not ! 
+
 But, through clustering the interesting insight is:
+
 Even though some flights have delayed departures, they still arrive on time or in many cases even before the scheduled arrival time!
 
 ![image_descript](/images/1.png)
@@ -61,9 +63,11 @@ Shorter distance flights comparatively have more delays than longer distance fli
 #### On further analysis it can also answer the following questions:
 
 **What is the best season of the year to travel? Flights are delayed usually in which season? Is it in monsoon or winters?**
+
 No, Interesting finding here is that the flights are delayed more in summers than monsoon or winters. The reason is that LOW AIR Density makes it difficult for planes to take off. 
 
 **Are flights more delayed during weekends?**
+
 No, Flights are delayed more during weekdays than weekends.
 
 
